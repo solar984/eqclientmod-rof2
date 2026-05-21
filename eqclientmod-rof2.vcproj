@@ -4,7 +4,7 @@
 	Version="8.00"
 	Name="eqclientmod-rof2"
 	ProjectGUID="{4AAED291-2032-4244-A30F-D37AE2F3D626}"
-	RootNamespace="eqclientmod-titanium"
+	RootNamespace="eqclientmod-rof2"
 	>
 	<Platforms>
 		<Platform
