@@ -56,7 +56,7 @@ void LoadWindowTitleHack()
 		{
 			SetWindowTextA_Original = (_SetWindowTextA)*SetWindowTextA_Ptr;
 			uintptr_t addr = (uintptr_t)SetWindowTextA_Detour;
-			Patch((void *)SetWindowTextA_Ptr, &addr, 8);
+			Patch((void *)SetWindowTextA_Ptr, &addr, 4);
 		}
 	}
 }

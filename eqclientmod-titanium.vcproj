@@ -143,6 +143,10 @@
 	</References>
 	<Files>
 		<File
+			RelativePath=".\Modules\BorderlessWindowHack.cpp"
+			>
+		</File>
+		<File
 			RelativePath=".\common.cpp"
 			>
 		</File>

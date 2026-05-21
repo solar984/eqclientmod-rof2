@@ -31,7 +31,7 @@ extern HMODULE hEQGfxDll;
 
 #define INI_FILE ".\\eqclientmod.ini"
 
-#define BUILD_VERSION "SOLAR_ROF2_20250829"
+#define BUILD_VERSION "SOLAR_ROF2_2026052100"
 
 #define COMMAND_HANDLER
 #define TIMER_HACK
@@ -39,5 +39,6 @@ extern HMODULE hEQGfxDll;
 #define PROGRAM_LAUNCH_HACK
 //#define DEV_HACK
 #define WINDOW_TITLE_HACK
+#define BORDERLESS_WINDOW_HACK
 
 DWORD CalcOffset(DWORD offset_in, HMODULE base = 0);

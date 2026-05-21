@@ -27,3 +27,6 @@ This hack removes the requirement to pass the 'patchme' argument to the program 
 
 ### Window Title
 This hack renames the application window from EverQuest to Client1, Client2, etc depending on how many other windows are already open.  This is intended for macro software like hotkeynet and AutoHotKey to make it easier to search for the window.
+
+### Bordless Window
+This hack makes EQ borderless windowed when the startup window is desktop-sized.  The game should be in windowed mode (WindowedMode=TRUE) and the resolution (WindowedWidth/WindowedHeight) should be set equal to the desktop resolution to trigger this hack.  If you change resolution in game you will have to exit and restart the game to get the mod to activate.
